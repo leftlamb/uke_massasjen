@@ -1,33 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.mainContainer {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(https://uka.no/static/svg/blob5.svg?51c02234e35e);
   min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  max-height: 80px;
   display: flex;
-  flex-direction: column;
+  color: #fff;
   align-items: center;
+  justify-content: space-between;
+  background-color: #000d34;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contentContainer {
+  min-height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.oyeblikk {
+  width: 250px;
+  margin-right: 10px;
+}
+.ukelogo {
+  width: 200px;
+  margin-left: 20px;
+}
+.occupied {
+  color: red;
+  background-color: red;
+}
+
+.availableContainer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: #000d34;
+  width: 100%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }

@@ -1,0 +1,38 @@
+.availableAppointment {
+    margin: 10px;
+    min-width: 200px;
+    width: 10vw;
+    min-width: 200px;
+    border: .6px solid #888;
+    min-height: 200px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    box-shadow: 5px 6px rgba(200, 200, 200, .8);
+    background-color: #fff;
+}
+.availableAppointment a {
+    font-size: 2em;
+    border-bottom: 1px solid #888;
+}
+
+.appointmentTimes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.entry {
+    display: flex;
+    flex-wrap: wrap;
+    flex: .5;
+}
+
+.appointmentPause {
+    height: 20px;
+    width: 100%;
+}
+
+.dayTime {
+
+}
